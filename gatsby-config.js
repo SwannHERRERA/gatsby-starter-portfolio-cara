@@ -33,9 +33,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Swann portfolio`,
+        short_name: `Swann portfolio`,
+        description: `portfolio Swann HERRERA`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#f6ad55`,
