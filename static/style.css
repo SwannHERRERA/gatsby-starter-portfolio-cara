@@ -1,8 +1,16 @@
+html,
+body {
+  background-color: #222c32;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
 .cd-container {
   width: 90%;
   max-width: 1080px;
   margin: 0 auto;
-  background: #2b343a;
+  background: #2b343af0;
   padding: 0 10%;
   border-radius: 2px;
 }
@@ -85,8 +93,7 @@ Main components
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #7e57c2, inset 0 2px 0 rgba(0, 0, 0, 0.08),
-    0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #7e57c2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline-img {
@@ -131,7 +138,7 @@ Main components
 }
 @media (max-width: 500px) {
   .cd-timeline-content .timeline-content-info .timeline-content-info-title,
-  .cd-timeline-content .timeline-content-info .timeline-content-info-date {
+.cd-timeline-content .timeline-content-info .timeline-content-info-date {
     display: block;
     width: 100%;
   }
@@ -206,7 +213,7 @@ Main components
   }
 
   .cd-timeline-content .cd-read-more,
-  .cd-timeline-content .cd-date {
+.cd-timeline-content .cd-date {
     font-size: 14px;
     font-size: 0.875rem;
   }

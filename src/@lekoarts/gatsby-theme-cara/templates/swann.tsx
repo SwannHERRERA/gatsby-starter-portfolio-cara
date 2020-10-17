@@ -8,12 +8,12 @@ import Timeline from "../components/timeline"
 
 const Swann = () => (
   <Layout>
-    <Parallax pages={5}>
+    <Parallax pages={4}>
       <Hero offset={0} factor={1} />
-      <Projects offset={1} factor={2} />
-      <Timeline offset={3} factor={1} />
-      <About offset={4} factor={1} />
-      <Contact offset={5} factor={1} />
+      <Projects offset={1} factor={1} />
+      <Timeline offset={2} factor={1} />
+      {/* <About offset={4} factor={1} />
+      <Contact offset={5} factor={1} /> */}
     </Parallax>
   </Layout>
 )
