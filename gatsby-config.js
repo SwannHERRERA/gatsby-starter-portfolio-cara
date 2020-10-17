@@ -9,7 +9,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    siteTitle: `Swann`,
     siteTitleAlt: `Swann HERRERA Portfolio`,
+    siteHeadline: `Swann HERRERA Portfolio`,
+    siteUrl: `https://devloup.dev`,
+    siteDescription: `Portfolio Swann HERRERA`,
+    siteImage: `./static/banner.jpg`,
+    siteLanguage: "fr",
+    author: `@swannHERRERA`,
   },
   plugins: [
     {
@@ -30,17 +37,17 @@ module.exports = {
         short_name: `Cara`,
         description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
         start_url: `/`,
-        background_color: `#141821`,
+        background_color: `#ffffff`,
         theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/android-icon-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/android-icon-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
